@@ -1,0 +1,22 @@
+{
+  "name": "milestone",
+  "type": "commonjs",
+  "version": "1.0.0",
+  "description": " FSE progbasics milestone test I.",
+  "main": "filter-divisible.js",
+  "scripts": {
+    "test": "jest",
+    "test-average": "jest ./tests/averageAgeOfAdults.test.js",
+    "test-count": "jest ./tests/countConfirmed.test.js",
+    "test-filter": "jest ./tests/filterDivisible.test.js",
+    "test-find": "jest .tests/findAbacus.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.52.0"
+  }
+}
